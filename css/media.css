@@ -1,0 +1,161 @@
+/* Media Queries */
+@media(max-width: 960px) {
+
+    .main-ul,
+    header .contact-btn {
+        display: none;
+    }
+
+    #menu-icon {display: block;}
+    .hire-talent{
+        height:auto;
+    }
+    .hire-boxes{flex-direction:column;}
+    .hire-talent-container .hire-boxes .hire-box {
+        width:100%;
+        margin: 2rem 0;
+        height:250px;
+    }
+}
+
+@media(max-width: 768px) {
+    .alvative-team h1 {
+        font-size: 1.5rem;
+        margin: 1rem 0;
+        color: var(--primarys);
+    }
+
+    .alvative-team p {
+        font-size: 1rem;
+    }
+
+    .testimonials-block {
+        height: 100vh;
+    }
+
+    .slide {
+        max-width: 90%;
+    }
+
+    .slide-content {
+        font-size: 0.8rem;
+    }
+
+    #arrow-left {
+        left: 3%;
+    }
+
+    #arrow-right {
+        right: -3%;
+    }
+   
+    .sponsors-img {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        justify-content: center !important;
+        align-items: center !important;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        top: 100%;
+        text-align: center;
+        left: 50%;
+    }
+
+    .sponsors-block .container {
+        position: relative;
+        max-width: 50%;
+        margin: 0 auto;
+    }
+
+    .sponsors-block .container h2 {
+        font-size: 2.2rem;
+        transform: translateY(-100px);
+    }
+
+    .sponsors-img i {
+        font-size: 2.5rem;
+        margin: 1rem 0 !important;
+    }
+
+    .dedicated-dev h2 {
+        font-size: 1.3rem;
+    }
+
+    .dedicated-dev p {
+        padding: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .reverse-side {
+        order: 1;
+    }
+
+    .block-1,
+    .block-2,
+    .block-3,
+    .block-4 {
+        flex-direction: column;
+        margin: 4rem 0;
+    }
+
+    .block-wrapper .text-side {
+        width: 100%;
+        padding: 0;
+    }
+
+    .block-wrapper .text-side h3 {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .block-wrapper .text-side p {
+        font-size: 0.9rem;
+    }
+    .footer-container h1, .footer-container p{
+        max-width:90%;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .sponsors-block .container h2 {
+        font-size: 1.8rem;
+        min-width: 100% !important;
+        margin-bottom: 3rem;
+    }
+    .hire-talent-container .hire-boxes .hire-box {
+        margin: 1rem 0;
+    }
+    .showcase-main .hero img {
+        width: 100% !important;
+        height: 35vh;
+    }
+.hire-header p{
+    min-width:100%;
+}
+    .dedicated-dev p {
+        padding: 1rem 0;
+        text-align: justify;
+        max-width: 90%;
+    }
+
+    .sponsors-block .container {
+        max-width: 100%;
+    }
+
+    .sponsors-img {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+
+@media(max-width:500px) {
+    #arrow-left {
+        left: 3%;
+    }
+
+    #arrow-right {
+        right: -8%;
+    }
+}
